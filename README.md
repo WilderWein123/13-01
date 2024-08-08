@@ -90,16 +90,16 @@ https://www.exploit-db.com/exploits/32847
 
 1. SYN - отправляем пакет, ждем ответа. Если ответ пришел - сервис есть, можно дальше с ним работать. Ответа нет - сервиса нет (либо сервис неизвестен)
 
-![img1.jpg](./img/img1.jpg)
+<img src = "img/img1.jpg" width = 100%>
 
 2. FIN - отправляем конец соединения. Если ответа нет - сервис есть, работаем с ним дальше. Если прихолит RST - порт закрыт.
 
-![img2.jpg](./img/img2.jpg)
+<img src = "img/img2.jpg" width = 100%>
 
 3. Xmas - аналогично
 
-![img3.jpg](./img/img3.jpg)
+<img src = "img/img3.jpg" width = 100%>
 
 4. UDP - отправляем пакет, если в ответе ICMP Unreachable - сервиса нет. В противном случае дальше с ним работаем. 
 
-![img4.jpg](./img/img4.jpg)
+<img src = "img/img4.jpg" width = 100%>
